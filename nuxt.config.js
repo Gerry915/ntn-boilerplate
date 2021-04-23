@@ -24,13 +24,13 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: SITE_INFO.sitename || process.env.npm_package_name || '',
+    title: 'Gerry Studio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: 'description',
-        name: 'description',
+        hid: 'Gerry Studio',
+        name: 'Gerry Studio',
         content: SITE_INFO.sitedescription || process.env.npm_package_description || ''
       }
     ],
